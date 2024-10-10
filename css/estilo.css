@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+*{
+    font-family: "Afacad Flux", sans-serif;
+}
+
+body {
+    background-image: url('/imagens/background-image1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.4px solid aliceblue;
+    justify-content: center;
+    background-color: black;
+    filter:opacity(80%);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.logotipoStray{
+    object-fit: contain;
+    display:block;
+    width: 12%;
+    margin-left: 40px;
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    margin: 16px;
+    padding: 20px;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    transition: transform .2s;
+    color: white;
+    font-size: 30px;
+    width: 200px;
+}
+
+a:hover{
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+    transform: scale(1.5);
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.introduction {
+    color:aliceblue;
+    margin-left: 30px;
+    width: 70%;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 1px;
+    animation: fadeIn 3s;
+}
+
+p {
+    font-size: 25px;
+    text-align: justify;
+    animation: fadeIn 9s;
+}
+
+.websites {
+    color:aliceblue;
+    max-width: 30%;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    margin-top: 10%;
+    margin-left: 60px;
+    animation: fadeIn 15s;
+}
+
+.logotipoplaystation {
+    width: 50%;
+    margin-left: 60px;
+    transition: transform .2s;
+}
+
+.logotipoxbox {
+    width: 40%;
+    margin-left: 100px;
+    transition: transform .2s;
+}
+
+.logotiposteam {
+    width: 35%;
+    margin-left: 105px;
+    transition: transform .2s;
+    margin-bottom: 200px;
+}
+
+.logotipoplaystation:hover,
+.logotipoxbox:hover,
+.logotiposteam:hover {
+    transform: scale(1.5);
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    border-top: 0.4px solid aliceblue;
+    justify-content: center;
+    color: aliceblue;
+    user-select: none;
+    text-decoration: none;
+}
+
+.copyright {
+    animation: none;
+}
