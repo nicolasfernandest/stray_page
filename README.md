@@ -1,4 +1,4 @@
-<h3 align="center"><img src="https://github.com/nicolasfernandest/stray_page/blob/main/imagens/logo-stray-game.png" height="200"></h3>
+<h3 align="center"><img src="https://github.com/nicolasfernandest/stray_page/blob/main/imagens/stray-white-logo-shadow.png" height="400"></h3>
 <h3 align="center">AVENTURE-SE EM UMA CIDADE SUBTERRÂNEA</h3> <br>
 
 <h2> Sobre </h2>
